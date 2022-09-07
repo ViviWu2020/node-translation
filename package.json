@@ -1,0 +1,19 @@
+{
+  "name": "node-totranslation",
+  "version": "0.0.2",
+  "main": "dist/main.js",
+  "bin": {"fy": "dist/cli.ts"},
+  "files": ["dist/**/*.js"],
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.2",
+    "@types/node": "^18.7.15"
+  }
+}
